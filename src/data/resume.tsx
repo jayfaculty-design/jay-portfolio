@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Godfred Entsie",
   initials: "GE",
-  url: "https://dillion.io",
+  url: "https://godfred-entsie.vercel.app/",
   location: "Accra, Ghana",
   locationLink: "#",
   description:
@@ -161,6 +161,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Shopping Cart",
+      href: "https://jay-shoprite.netlify.app/",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        "I developed a shopping cart application using React.js and Tailwind CSS, designed to provide a seamless and intuitive user experience. The project includes features like product selection, dynamic cart updates, and responsive design, demonstrating my ability to build functional and visually appealing web applications.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jay-shoprite.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/shopping-cart",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/shop.PNG",
+      video: "",
+    },
+    
+    {
       title: "Kobby Memory Card",
       href: "https://kobby-memory.vercel.app/",
       dates: "Jan 2024 - Feb 2024",
@@ -189,6 +217,61 @@ export const DATA = {
         "",
     },
     {
+      title: "Library",
+      href: "https://jay-library.vercel.app/",
+      dates: "July 2023 - present",
+      active: true,
+      description:
+        "I developed a library management application using HTML, CSS, and JavaScript. The app allows users to add books with details such as title, author, pages, and read status, which are displayed as interactive cards. Users can also delete books, providing a simple yet effective tool for organizing a personal library.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jay-library.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/library",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/lib.PNG",
+      video: "",
+    },
+    {
+      title: "Portfolio",
+      href: "https://godfred-entsie.vercel.app/",
+      dates: "June 2024 - Present",
+      active: true,
+      description:
+        "I built a responsive portfolio website using React.js and Tailwind CSS. The portfolio showcases my skills, projects, and experience in a visually appealing and user-friendly manner.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+        "MagicUi"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://godfred-entsie.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/jay-portfolio",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/portfolio.PNG",
+      video: "",
+    },
+    {
       title: "Contact form",
       href: "https://jay-form.vercel.app/",
       dates: "June 2023 - Present",
@@ -215,33 +298,7 @@ export const DATA = {
       image: "/contact.PNG",
       video: "",
     },
-    {
-      title: "Shopping Cart",
-      href: "https://jay-shoprite.netlify.app/",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "I developed a shopping cart application using React.js and Tailwind CSS, designed to provide a seamless and intuitive user experience. The project includes features like product selection, dynamic cart updates, and responsive design, demonstrating my ability to build functional and visually appealing web applications.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://jay-shoprite.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/jayfaculty-design/shopping-cart",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/shop.PNG",
-      video: "",
-    },
+    
     {
       title: "Newsletter Sign Up",
       href: "https://jay-newsletter.vercel.app/",
@@ -270,6 +327,34 @@ export const DATA = {
       video:
         "",
     },
+    {
+      title: "Calculator",
+      href: "https://jay-calculator.vercel.app/",
+      dates: "March 2023 - March 2023",
+      active: true,
+      description:
+        "I built a calculator app that performs basic arithmetic operations with a clean and responsive user interface. This project highlights my ability to create functional and user-friendly applications using modern web development technologies.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jay-calculator.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/Jay-Calculator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/calcus.PNG",
+      video: "",
+    },
+    
   ],
   hackathons: [
     {
