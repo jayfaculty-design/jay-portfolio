@@ -187,6 +187,34 @@ export const DATA = {
       image: "/shop.PNG",
       video: "",
     },
+    {
+      title: "School Library",
+      href: "https://books-labz.vercel.app/",
+      dates: "March 2024 - April 2024",
+      active: true,
+      description: "I built a book library application using React and Tailwind CSS, integrating the Open Library API for dynamic book data and Framer Motion for smooth animations. This project combines functionality, aesthetics, and interactivity to create an engaging user experience.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+        "Framer Motion",
+        "Open Library API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://books-labz.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/Book-Library",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/library.PNG",
+      video: "",
+    },
     
     {
       title: "Kobby Memory Card",
