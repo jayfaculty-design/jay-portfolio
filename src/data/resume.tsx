@@ -300,6 +300,33 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Advice Generator",
+      href: "https://advice-generatorrr.vercel.app/",
+      dates: "September 2024 - Present",
+      active: true,
+      description:
+        "I created an advice generator application using React.js and Tailwind CSS, leveraging the [Advice Slip API](https://api.adviceslip.com/) to fetch and display random pieces of advice. This project highlights my ability to integrate APIs and design simple, user-friendly interfaces. ",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://advice-generatorrr.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/Advice-Genereator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/advice.PNG",
+      video: "",
+    },
+    {
       title: "Contact form",
       href: "https://jay-form.vercel.app/",
       dates: "June 2023 - Present",
@@ -382,7 +409,62 @@ export const DATA = {
       image: "/calcus.PNG",
       video: "",
     },
-    
+    {
+      title: "Rock Paper Scissors",
+      href: "https://jay-rps.vercel.app/",
+      dates: "February 2023 - March 2023",
+      active: true,
+      description:
+        "I created a responsive Rock, Paper, Scissors game using Vanilla JS. The game allows users to play against the computer and provides dynamic feedback based on their choices.",
+      technologies: [
+       "HTML" ,
+       "CSS",
+       "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jay-rps.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/Rock-Paper-Scissors",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/rps.PNG",
+      video: "",
+      
+    },
+    {
+      title: "Age Calculator",
+      href: "https://jay-age-calculator.vercel.app/",
+      dates: "February 2023 - March 2023",
+      active: true,
+      description:
+        "I developed an age calculator application that allows users to input their date of birth and instantly calculates their exact age in years, months, and days. The project showcases my ability to create interactive and user-friendly tools using modern web development technologies."
+      ,
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jay-age-calculator.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/jay-age-calculator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/age.PNG",
+      video: "",
+    },
   ],
   hackathons: [
     {
