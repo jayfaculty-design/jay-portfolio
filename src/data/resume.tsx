@@ -161,6 +161,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "IP Address Tracker",
+      href: "https://https://jay-ip-tracker.vercel.app/",
+      dates: "November 2024 - November 2024",
+      active: true,
+      description:
+        "I’m developing an IP Address Tracker application using React.js, the [Geolocation API](https://geo.ipify.org/), and the [Leaflet.js API](https://leafletjs.com/). This project allows users to track IP addresses and view location data on an interactive map, combining powerful APIs to provide a seamless and informative experience.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jay-ip-tracker.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/IP-Address-Tracker",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ip.PNG",
+      video: "",
+    },
+    {
       title: "Shopping Cart",
       href: "https://jay-shoprite.netlify.app/",
       dates: "April 2023 - September 2023",
