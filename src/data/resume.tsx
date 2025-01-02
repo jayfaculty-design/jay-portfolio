@@ -162,7 +162,7 @@ export const DATA = {
   projects: [
     {
       title: "IP Address Tracker",
-      href: "https://https://jay-ip-tracker.vercel.app/",
+      href: "https://jay-ip-tracker.vercel.app/",
       dates: "November 2024 - November 2024",
       active: true,
       description:
