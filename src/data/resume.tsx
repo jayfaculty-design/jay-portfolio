@@ -166,7 +166,7 @@ export const DATA = {
       dates: "November 2024 - November 2024",
       active: true,
       description:
-        "I’m developing an IP Address Tracker application using React.js, the [Geolocation API](https://geo.ipify.org/), and the [Leaflet.js API](https://leafletjs.com/). This project allows users to track IP addresses and view location data on an interactive map, combining powerful APIs to provide a seamless and informative experience.",
+        "I developed an IP Address Tracker application using React.js, the [Geolocation API](https://geo.ipify.org/), and the [Leaflet.js API](https://leafletjs.com/). This project allows users to track IP addresses and view location data on an interactive map, combining powerful APIs to provide a seamless and informative experience.",
       technologies: [
         "React.js",
         "Javascript",
@@ -175,7 +175,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://jay-ip-tracker.vercel.app/",
+          href:"https://jay-ip-tracker.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
