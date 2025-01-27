@@ -143,6 +143,34 @@ export const DATA = {
       
     },
     {
+      title: "Coffee Shop",
+      href: "https://coffee-shop-opal.vercel.app/all-products",
+      dates: "January 2025 - Present",
+      active: true,
+      description:
+        "I created a responsive and interactive Coffee Shop website using React.js. The website allows users to browse and purchase coffee beverages, showcasing a clean and user-friendly design.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+        'Framer Motion'
+      ],
+      links: [
+        {
+          type: "Website",
+          href:"https://coffee-shop-opal.vercel.app/all-products",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/coffee-shop",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/coffee.PNG",
+      video: "",
+    },
+    {
       title: "IP Address Tracker",
       href: "https://jay-ip-tracker.vercel.app/",
       dates: "November 2024 - November 2024",
