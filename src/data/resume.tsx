@@ -171,6 +171,35 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Pizzta Landing Page",
+      href: "https://pizzta.vercel.app/",
+      dates: "January 2025 - Present",
+      active: true,
+      description:
+        "I created a responsive and interactive Pizzta Landing page using React.js. The website showcases a clean and user-friendly design.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+        'Framer Motion'
+      
+      ],
+      links: [
+        {
+          type: "Website",
+          href:"https://pizzta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jayfaculty-design/pizzta-landing-page",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pizza.PNG",
+      video: "",
+    },
+    {
       title: "IP Address Tracker",
       href: "https://jay-ip-tracker.vercel.app/",
       dates: "November 2024 - November 2024",
