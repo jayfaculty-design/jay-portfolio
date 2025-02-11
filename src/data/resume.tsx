@@ -452,7 +452,7 @@ export const DATA = {
       title: "Calculator",
       href: "https://jay-calculator.vercel.app/",
       dates: "March 2023 - March 2023",
-      active: true,
+      active: false,
       description:
         "I built a calculator app that performs basic arithmetic operations with a clean and responsive user interface. This project highlights my ability to create functional and user-friendly applications using modern web development technologies.",
       technologies: [
