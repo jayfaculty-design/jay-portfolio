@@ -226,33 +226,33 @@ export const DATA = {
       image: "/ip.PNG",
       video: "",
     },
-    {
-      title: "Shopping Cart",
-      href: "https://jay-shoprite.netlify.app/",
-      dates: "April 2023 - September 2023",
-      active: false,
-      description:
-        "I developed a shopping cart application using React.js and Tailwind CSS, designed to provide a seamless and intuitive user experience. The project includes features like product selection, dynamic cart updates, and responsive design, demonstrating my ability to build functional and visually appealing web applications.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://jay-shoprite.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/jayfaculty-design/shopping-cart",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/shop.PNG",
-      video: "",
-    },
+    // {
+    //   title: "Shopping Cart",
+    //   href: "https://jay-shoprite.netlify.app/",
+    //   dates: "April 2023 - September 2023",
+    //   active: false,
+    //   description:
+    //     "I developed a shopping cart application using React.js and Tailwind CSS, designed to provide a seamless and intuitive user experience. The project includes features like product selection, dynamic cart updates, and responsive design, demonstrating my ability to build functional and visually appealing web applications.",
+    //   technologies: [
+    //     "React.js",
+    //     "Javascript",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://jay-shoprite.netlify.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/jayfaculty-design/shopping-cart",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/shop.PNG",
+    //   video: "",
+    // },
     {
       title: "School Library",
       href: "https://books-labz.vercel.app/",
@@ -448,33 +448,33 @@ export const DATA = {
       video:
         "",
     },
-    {
-      title: "Calculator",
-      href: "https://jay-calculator.vercel.app/",
-      dates: "March 2023 - March 2023",
-      active: false,
-      description:
-        "I built a calculator app that performs basic arithmetic operations with a clean and responsive user interface. This project highlights my ability to create functional and user-friendly applications using modern web development technologies.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://jay-calculator.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/jayfaculty-design/Jay-Calculator",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/calcus.PNG",
-      video: "",
-    },
+    // {
+    //   title: "Calculator",
+    //   href: "https://jay-calculator.vercel.app/",
+    //   dates: "March 2023 - March 2023",
+    //   active: false,
+    //   description:
+    //     "I built a calculator app that performs basic arithmetic operations with a clean and responsive user interface. This project highlights my ability to create functional and user-friendly applications using modern web development technologies.",
+    //   technologies: [
+    //     "React.js",
+    //     "Javascript",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://jay-calculator.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/jayfaculty-design/Jay-Calculator",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/calcus.PNG",
+    //   video: "",
+    // },
     {
       title: "Rock Paper Scissors",
       href: "https://jay-rps.vercel.app/",
