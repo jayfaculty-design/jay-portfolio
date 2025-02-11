@@ -230,7 +230,7 @@ export const DATA = {
       title: "Shopping Cart",
       href: "https://jay-shoprite.netlify.app/",
       dates: "April 2023 - September 2023",
-      active: true,
+      active: false,
       description:
         "I developed a shopping cart application using React.js and Tailwind CSS, designed to provide a seamless and intuitive user experience. The project includes features like product selection, dynamic cart updates, and responsive design, demonstrating my ability to build functional and visually appealing web applications.",
       technologies: [
